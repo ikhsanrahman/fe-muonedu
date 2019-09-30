@@ -1,0 +1,109 @@
+<template>
+  <div>
+    <div class="background">
+      <!-- <div class="title"> -->
+        <div class="columns">
+          <div v-for="content in data" :key="content.id" class="column">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                   <div>
+                    <img :src="content.url" style="border-bottom: 1px solid black; padding:2px; " alt="Placeholder image">
+                   </div>
+                </figure>
+              </div>
+              <div class="card-content">
+
+                <div class="content">
+                  <h1 style="font-size: 30px; font-weight:400">{{content.title}}</h1>
+                  <br>
+                  {{content.desc_1}}
+                  <br>
+                  <br>
+                  {{content.desc_2}}
+                  <br>
+                  <br>
+                  {{content.desc_3}}
+                </div>
+              </div>
+              {{content.button}}
+              <b-button type="info" style='margin:0 0 20px 35%;' @click="content.method">Lebih Lanjut</b-button>
+            </div>            
+          </div>
+        </div>
+     
+    </div>
+    
+  </div>
+</template>
+
+<script>
+  export default {
+    data () {
+      return {
+        data: [
+          {
+            url: require('../../assets/image/corporate.jpeg'),
+            title: 'Corporate Service',
+            desc_1: 'Kami menyediakan layanan untuk korporat berupa training, review, dan konsultasi.',
+            desc_2: 'Training yang kami berikan menggunakan silabus yang dapat disesuaikan dengan kebutuhan bisnis.',
+            desc_3: 'Pengalaman kami dalam mengerjakan berbagai macam project dapat membantu menyelesaikan masalah-masalah teknis yang ada di perusahaan.',
+            type: 'is-one-third',
+            method: this.corporate
+          },
+          {
+            url: require('../../assets/image/python.jpeg'),
+            title: 'Training Python',
+            desc_1: 'Flutter adalah teknologi dari Google yang memungkinkan untuk membuat aplikasi Android dan iOS dengan mudah dan cepat.',
+            desc_2: 'Kami menyediakan training membuat aplikasi Flutter yang bisa diikuti oleh peserta yang belum pernah membuat aplikasi mobile sebelumnya.',
+            method: this.python
+          },
+          {
+            url: require('../../assets/image/event_python.jpg'),
+            title: 'Event',
+            desc_1: 'Secara rutin, kami membuat kelompok belajar (Kejar) dengan tema tertentu sesuai dengan tren dan kebutuhan.',
+            desc_2: 'Konsep online yang digunakan membuat siapapun dapat belajar tanpa harus terhalang oleh masalah demografi.',
+            method: this.event
+          }
+
+        ]
+
+      }
+    },
+    methods: {
+      corporate () {
+        console.log('tests')
+        this.$router.push({name: 'corporate'})
+      },
+      python () {
+        console.log('adgad')
+        this.$router.push({name: 'student'})
+      },
+      event () {
+        this.$router.push({name: 'event'})
+      }
+      
+  }
+    }
+</script>
+
+<style scoped>
+.background {
+  background: url('../../assets/image/blueBackground.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+ .columns {
+  margin: 20px 15% 40px 15%;
+ }
+
+ .card {
+  width: 100%;
+  height: 100%;
+ }
+
+
+</style>
