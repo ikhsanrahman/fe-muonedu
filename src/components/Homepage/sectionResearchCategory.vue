@@ -72,11 +72,9 @@
     },
     methods: {
       corporate () {
-        console.log('tests')
         this.$router.push({name: 'corporate'})
       },
       python () {
-        console.log('adgad')
         this.$router.push({name: 'student'})
       },
       event () {
