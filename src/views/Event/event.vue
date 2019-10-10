@@ -1,15 +1,15 @@
 <template>
   <div>
-    <navbar/>
+    <navbar></navbar>
     <div class="event">
       <div class="columns">
         <div class="column">
-          <h1>Workshop Artifical Intelligence</h1>
+          <h1>Workshop Artificial Intelligence</h1>
         </div>
       </div>
       <div class="columns description">
         <div class="column">
-          <p>This Workshop is aimed to any people who having interesting in artificial Intelligenc. This event will be held in main auditorium FMIPA unri</p>
+          <p>This Workshop is aimed to any people who having interesting in artificial Intelligence. This event will be held in main auditorium FMIPA unri</p>
           <h1>Cooming Soon !!!!</h1>
         </div>
       </div>
@@ -32,9 +32,10 @@
   }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
   .event {
     margin: 5% 0 0 0;
+    height:100%;
   }
   .columns {
     text-align: center;

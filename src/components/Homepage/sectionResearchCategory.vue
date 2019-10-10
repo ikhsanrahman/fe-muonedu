@@ -26,7 +26,7 @@
                   {{content.desc_3}}
                 </div>
               </div>
-              {{content.button}}
+              <!-- {{content.button}} -->
               <b-button type="info" style='margin:0 0 20px 35%;' @click="content.method">Lebih Lanjut</b-button>
             </div>            
           </div>
@@ -54,15 +54,15 @@
           {
             url: require('../../assets/image/python.jpeg'),
             title: 'Training Python',
-            desc_1: 'Flutter adalah teknologi dari Google yang memungkinkan untuk membuat aplikasi Android dan iOS dengan mudah dan cepat.',
-            desc_2: 'Kami menyediakan training membuat aplikasi Flutter yang bisa diikuti oleh peserta yang belum pernah membuat aplikasi mobile sebelumnya.',
+            desc_1: 'Python adalah merupakan bahasa pemrograman yang paling populer saat ini. banyak perusahaan dan produk melibatkan python dalam pengembangannya terutama dalam bidang komputasi dan Machine Learning.',
+            desc_2: 'Kami menyediakan training membuat system Web baik Monolith ataupun Microservices serta sistem menggunakan Konsep Machine Learning yang bisa diikuti oleh peserta yang tidak mempunyai background pemrograman sebelumnya.',
             method: this.python
           },
           {
             url: require('../../assets/image/event_python.jpg'),
             title: 'Event',
-            desc_1: 'Secara rutin, kami membuat kelompok belajar (Kejar) dengan tema tertentu sesuai dengan tren dan kebutuhan.',
-            desc_2: 'Konsep online yang digunakan membuat siapapun dapat belajar tanpa harus terhalang oleh masalah demografi.',
+            desc_1: 'Secara rutin, kami membuat kelompok belajar atau Event dengan tema tertentu sesuai dengan tren dan kebutuhan.',
+            desc_2: 'Tujuannya untuk belajar dan beradaptasi dengan teknologi yang sedang maju di dunia saat ini.',
             method: this.event
           }
 

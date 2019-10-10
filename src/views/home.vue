@@ -2,7 +2,6 @@
   <div>
     <navbar/>
     <background/>
-    <!-- <profile/> -->
     <ongoing/>
     <category/>
     <meet/>

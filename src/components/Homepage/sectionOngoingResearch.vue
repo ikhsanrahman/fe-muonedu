@@ -9,7 +9,7 @@
             <h4>Daftar Sekarang dan Kelas akan dimulai pada bulan oktober 2019</h4>
           </div>
           <div class="column is-two-thirds">
-          <b-button  type="is-info">Info Lengkap
+          <b-button  type="is-info" @click="python">Info Lengkap
             <b-icon
               icon="arrow-right-circle"
               size="is-small">
@@ -28,6 +28,11 @@
     data () {
       return {
         
+      }
+    },
+    methods: {
+      python () {
+        this.$router.push('/student')
       }
     }
   }

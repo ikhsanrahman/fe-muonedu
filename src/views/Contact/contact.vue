@@ -11,7 +11,7 @@
     <div class="columns">
       <div class="column">
         <p>Want to keep in touch or having some question ?</p>
-        <p>Just inform us here <a href="whatsapp://send?text=Hello&phone=+6282283038159">Chat disini</a> </p>
+        <p>Just inform us here <a href="whatsapp://send?text=Hello&phone=+6282283038159">Chat disini</a> </p> <p>or</p> <p>You can send us email here <a href="mailto:vickydasta@gmail.com">Email Us</a></p>
       </div>
     </div>
   </div>

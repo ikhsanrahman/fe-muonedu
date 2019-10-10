@@ -20,7 +20,7 @@
 							<h4>{{content.desc_4}}</h4>
 						</div>
 					</div>
-					<b-button type="info" style='margin:0 0 20px 0;' @click="student">Daftar Sekarang</b-button>
+					<b-button type="info" style='margin:0 0 20px 0;'> <a :href="content.link" title="">Daftar Sekarang</a></b-button>
 				</div>   
 			</div>
 		</div>
@@ -46,7 +46,8 @@
 						desc_1: 'Durasi selama 6 minggu',
 						desc_2: 'Dilakukan secara full onsite',
 						desc_3: 'Dibimbing oleh praktisi Python, Machine Learning dan Computer Vision Expert',
-						desc_4: 'Materi level beginner'
+						desc_4: 'Materi level beginner',
+						link: 'https://forms.gle/nRWpEdXzu9MdH8f69'
 					},
 					{
 						title: 'Batch 1: Python Intermediate',
@@ -55,7 +56,8 @@
 						desc_1: 'Durasi selama 6 Minggu',
 						desc_2: 'Dilakukan secara full onsite',
 						desc_3: 'Dibimbing oleh praktisi Python, Machine Learning dan Computer Vision Expert',
-						desc_4: 'Materi level Intermediate'
+						desc_4: 'Materi level Intermediate',
+						link: 'https://forms.gle/8AaNS2fkhtWLyxT66'
 					},
 					{
 						title: 'Batch 1: Python Advanced',
@@ -64,7 +66,8 @@
 						desc_1: 'Durasi selama 7 minggu',
 						desc_2: 'Dilakukan secara full onsite',
 						desc_3: 'Dibimbing oleh praktisi Python, Machine Learning dan Computer Vision Expert',
-						desc_4: 'Materi level Advanced'
+						desc_4: 'Materi level Advanced',
+						link: 'https://forms.gle/X3FCGnvjoWKjEbMaA'
 					}
 				]
 			}

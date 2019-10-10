@@ -7,10 +7,10 @@
           Oktober bulannya belajar !!
           <br>
           <br>
-          Ada 2 OSG dalam satu bulan yang bisa kamu ikuti hanya dengan Rp.100.000,- per tiket, diskon sampe
+          Ada beberapa Pilihan Program yang bisa kamu ikuti. kamu juga bisa memilih metode pelatihan secara intensif, kelompok bahkan private.
           <br>
           <br>
-          Jangan menaruh harapan sama doi yang gapeka sama kode kamu, mulai sekarang taruh harapan yang cerah dengan belajar koding di Eudeka! Yuk, daftar sekarang juga!
+          Jangan menaruh harapan sama doi yang gapeka sama kode kamu, mulai sekarang taruh harapan yang cerah dengan belajar koding di Muonedu! Yuk, daftar sekarang juga!
           <br>
           <br>
           <br>
