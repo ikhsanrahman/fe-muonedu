@@ -6,7 +6,7 @@
         <div class="columns">
           <div class="column">
             <h2>Kelas Python From Zero to Hero</h2>
-            <h4>Daftar Sekarang dan Kelas akan dimulai pada bulan oktober 2019</h4>
+            <h4>Daftar Sekarang dan Kelas akan dimulai pada bulan Oktober 2019</h4>
           </div>
           <div class="column is-two-thirds">
           <b-button  type="is-info" @click="python">Info Lengkap

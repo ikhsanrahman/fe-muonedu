@@ -1,6 +1,6 @@
 <template>
   <div class="navigation">
-      <b-navbar is-active="true" shadow="true" fixed-top >
+      <b-navbar shadow="true" fixed-top >
         <template slot="brand">
           <b-navbar-item>
             <img class="logo" @click='home'

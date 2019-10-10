@@ -4,11 +4,11 @@
     <div class="corporate">
       <div class="columns">
         <div class="column is-two-fifths">
-          <h1>Corporate Service</h1>
+          <h1>Muon Corporate</h1>
           <br>
-          <p>Muoneka! menyediakan berbagai layanan untuk perusahaan Anda. Layanan yang kami berikan berfokus kepada solusi teknis dari permasalahan bisnis yang ada di perusahaan.</p>
+          <p>Muon Korporasi menyediakan berbagai layanan untuk perusahaan Anda. Layanan yang kami berikan berfokus kepada solusi teknis dari permasalahan bisnis yang ada di perusahaan.</p>
           <br>
-         <b-button type="info">Kontak Kami</b-button>
+         <b-button type="info"> <a href="https://forms.gle/1FCDW6x84CEf91Zm7">Kontak Kami</a></b-button>
         </div>
       </div>
     </div>
@@ -21,7 +21,7 @@
         <div class="column">
           <h1>Corporate Training</h1>
           <br>
-          <h3>Muoneka! akan membantu perusahaan Anda untuk dapat meningkatkan kemampuan teknis personal timnya.</h3>
+          <h3>Muon Korporasi akan membantu perusahaan Anda untuk dapat meningkatkan kemampuan teknis personal timnya.</h3>
           <br>
           <br>
           <h3>Kami menyediakan training untuk Python, Flask, NodeJS, VueJS, dan Docker. Kami siap untuk menyesuaikan silabus dengan kebutuhan materi di perusahaan Anda bekerja.</h3>
@@ -30,7 +30,7 @@
           <h3>Training dapat dilakukan di tempat Anda atau di tempat training yang kami tentukan.</h3>
           <br>
           <br>
-          <b-button type="info">Kirim Inquiry</b-button>
+          <b-button type="info"> <a href="https://forms.gle/1FCDW6x84CEf91Zm7" title=""> Kirim Inquiry</a></b-button>
         </div>
       </div>
       <div class="columns">
@@ -46,7 +46,7 @@
           <h3>Kami dapat memberikan solusi jika terdapat masalah yang di aplikasi yang sudah dibuat, seperti bagaimana membuat ukuran aplikasi yang lebih kecil maupun bagaimana memproteksi aplikasi Anda agar aman dari pihak yang tidak bertanggung-jawab.</h3>
           <br>
           <br>
-          <b-button type="info">Kirim Inquiry</b-button>
+          <b-button type="info"> <a href="https://forms.gle/1FCDW6x84CEf91Zm7" title=""> Kirim Inquiry</a></b-button>
         </div>
         <div class="column">
           <img src="@/assets/image/corporate2.jpg" width="100%" alt="">
@@ -65,7 +65,7 @@
           <h3>Kami dapat hadir ke tempat Anda untuk memberikan konsultasi serta dapat melakukan pendampingan agar solusi yang kami berikan dapat diimplementasi dengan baik.</h3>
           <br>
           <br>
-          <b-button type="info">Kirim Inquiry</b-button>
+          <b-button type="info"> <a href="https://forms.gle/1FCDW6x84CEf91Zm7" title=""> Kirim Inquiry</a></b-button>
         </div>
       </div>
     </div>
