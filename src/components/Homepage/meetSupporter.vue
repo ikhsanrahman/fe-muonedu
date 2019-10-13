@@ -5,7 +5,7 @@
 			<h1>MEET THE TEAM</h1>
 		</v-row>
 		<v-row no-gutters class="mt-12" justify="center">
-			<v-col sm="3" class="text-center">
+			<v-col sm="3" class="text-center mb-12">
 				<v-avatar width="250" height="250">
 		      <img
 		        src="../../assets/image/ikhsan.jpeg"
@@ -15,7 +15,7 @@
 		    <hr class="mx-12" style="background:black">
 		    <h2>Full Stack Developer and Machine Learning Practicioner</h2>
 	    </v-col>
-	    <v-col sm="3" class="text-center">
+	    <v-col sm="3" class="text-center mb-12">
 		    <v-avatar width="250" height="250">
 		      <img
 		        src="../../assets/image/vicky.jpeg"
@@ -25,7 +25,8 @@
 		    <hr class="mx-12" style="background:black">
 		    <h2>Web Developer and Computer Vision Engineer</h2>
 	    </v-col>
-	    <v-col sm="3" class="text-center">
+	    <br>
+	    <v-col sm="3" class="text-center mb-12">
 		    <v-avatar width="250" height="250">
 		      <img
 		        src="../../assets/image/Ira.jpg"

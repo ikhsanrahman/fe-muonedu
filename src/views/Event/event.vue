@@ -11,13 +11,13 @@
         <div class="column" style="line-height:2;font-size:20px;font-weight:600">
           <p>This Workshop is aimed to any people who having interesting in Research and want to improve their research quality, in particularly the data gained already. This event will be held in Fotonic Laboratory FMIPA RIAU UNIVERSITY.</p>
           <v-row justify="center" style="font-size:20px;color:white">
-            <i class="material-icons">
+            <i class="material-icons mt-2">
             date_range
             </i>
             <h4> every Saturday</h4>
           </v-row>
           <v-row justify="center" style="font-size:20px;color:white">
-            <i class="material-icons">
+            <i class="material-icons mt-2">
             access_time
             </i>
             <h4> 13.30 - 15.00 wib</h4>

@@ -18,10 +18,7 @@
         </div>
       </div>
       <hr style="background:black;" class="mx-12">
-
-     <v-timeline align-top :dense="$vuetify.breakpoint.smAndDown">
-        <v-row justify="center">
-        
+     <v-timeline align-top :dense="$vuetify.breakpoint.smAndDown" class="mx-12">
         <v-timeline-item
           v-for="(item, i) in items"
           :key="i"
@@ -37,8 +34,6 @@
             </v-card-text>
           </v-card>
         </v-timeline-item>
-        <!-- <v-timeline></v-timeline> -->
-        </v-row>
       </v-timeline>
     </div>
 </template>
