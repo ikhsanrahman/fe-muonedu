@@ -7,8 +7,9 @@
 					<div class="card-content">
 						<h2>{{content.title}}</h2>
 						<hr>
-						<h2 style="color:blue;"> <strong>Rp </strong>{{content.discount}}</h2>
-						<h5> <b>Rp</b>{{content.price}}</h5>
+						<h2 style="color:blue;" v-if="content.discount"> <strong>Rp </strong>{{content.discount}}</h2>
+						<h5 v-if="content.discount"> <b>Rp</b>{{content.price}}</h5>
+						<h1 else> {{content.soon}}</h1>
 						<hr>
 						<div class="content">
 							<h4>{{content.desc_1}}</h4>
@@ -40,33 +41,35 @@
 			return {
 				data: [
 					{
-						title: 'Batch 1: Python Basic',
+						title: 'From Zero to Hero: Python Basic',
 						price: '1.500.000',
 						discount: '700.000',
 						desc_1: 'Durasi selama 6 minggu',
 						desc_2: 'Dilakukan secara full onsite',
 						desc_3: 'Dibimbing oleh praktisi Python, Machine Learning dan Computer Vision Expert',
-						desc_4: 'Materi level beginner',
+						desc_4: 'Flask, OOP, ORM, SQL Database and Chat Apps',
 						link: 'https://forms.gle/nRWpEdXzu9MdH8f69'
 					},
 					{
-						title: 'Batch 1: Python Intermediate',
-						price: '2.000.000',
-						discount: '800.000',
+						title: 'Python Intermediate',
+						soon: 'Coming Soon',
+						// price: '2.000.000',
+						// discount: '800.000',
 						desc_1: 'Durasi selama 6 Minggu',
 						desc_2: 'Dilakukan secara full onsite',
 						desc_3: 'Dibimbing oleh praktisi Python, Machine Learning dan Computer Vision Expert',
-						desc_4: 'Materi level Intermediate',
+						desc_4: 'Mongodb, Complex Monolith and Microservices',
 						link: 'https://forms.gle/8AaNS2fkhtWLyxT66'
 					},
 					{
-						title: 'Batch 1: Python Advanced',
-						price: '3.000.000',
-						discount: '1.000.000',
+						title: 'Python Advanced',
+						soon: 'Coming Soon',
+						// price: '3.000.000',
+						// discount: '1.000.000',
 						desc_1: 'Durasi selama 7 minggu',
 						desc_2: 'Dilakukan secara full onsite',
 						desc_3: 'Dibimbing oleh praktisi Python, Machine Learning dan Computer Vision Expert',
-						desc_4: 'Materi level Advanced',
+						desc_4: 'Computer Vision and Machine Learning',
 						link: 'https://forms.gle/X3FCGnvjoWKjEbMaA'
 					}
 				]

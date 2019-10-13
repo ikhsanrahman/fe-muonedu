@@ -8,7 +8,10 @@
           <br>
           <p>Muon Korporasi menyediakan berbagai layanan untuk perusahaan Anda. Layanan yang kami berikan berfokus kepada solusi teknis dari permasalahan bisnis yang ada di perusahaan.</p>
           <br>
-         <b-button type="info"> <a href="https://forms.gle/1FCDW6x84CEf91Zm7">Kontak Kami</a></b-button>
+         <b-button style="font-weight:bold"> <a href="https://forms.gle/1FCDW6x84CEf91Zm7">Kontak Kami</a></b-button>
+        </div>
+        <div class="column" style="margin: 0 0 20% 20%">
+          <img src="../../assets/image/python.png" width="70%" alt="">
         </div>
       </div>
     </div>
@@ -30,7 +33,7 @@
           <h3>Training dapat dilakukan di tempat Anda atau di tempat training yang kami tentukan.</h3>
           <br>
           <br>
-          <b-button type="info"> <a href="https://forms.gle/1FCDW6x84CEf91Zm7" title=""> Kirim Inquiry</a></b-button>
+          <b-button style="font-weight:bold"> <a href="https://forms.gle/1FCDW6x84CEf91Zm7" title=""> Kirim Inquiry</a></b-button>
         </div>
       </div>
       <div class="columns">
@@ -46,7 +49,7 @@
           <h3>Kami dapat memberikan solusi jika terdapat masalah yang di aplikasi yang sudah dibuat, seperti bagaimana membuat ukuran aplikasi yang lebih kecil maupun bagaimana memproteksi aplikasi Anda agar aman dari pihak yang tidak bertanggung-jawab.</h3>
           <br>
           <br>
-          <b-button type="info"> <a href="https://forms.gle/1FCDW6x84CEf91Zm7" title=""> Kirim Inquiry</a></b-button>
+          <b-button style="font-weight:bold"> <a href="https://forms.gle/1FCDW6x84CEf91Zm7" title=""> Kirim Inquiry</a></b-button>
         </div>
         <div class="column">
           <img src="@/assets/image/corporate2.jpg" width="100%" alt="">
@@ -65,7 +68,7 @@
           <h3>Kami dapat hadir ke tempat Anda untuk memberikan konsultasi serta dapat melakukan pendampingan agar solusi yang kami berikan dapat diimplementasi dengan baik.</h3>
           <br>
           <br>
-          <b-button type="info"> <a href="https://forms.gle/1FCDW6x84CEf91Zm7" title=""> Kirim Inquiry</a></b-button>
+          <b-button style="font-weight:bold"> <a href="https://forms.gle/1FCDW6x84CEf91Zm7" title=""> Kirim Inquiry</a></b-button>
         </div>
       </div>
     </div>

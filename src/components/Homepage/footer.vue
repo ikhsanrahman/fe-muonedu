@@ -1,15 +1,13 @@
 <template>
-    <div class="footer">
-      <footer class="footer">
-        <div class="content has-text-centered">
-          <p>
-            <strong>Muon Education</strong> is a Platform to training
-          </p>
-          <h4>hellomuonn@gmail.com</h4>
-        </div>
-      </footer>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <v-row justify="center">
+        <i class="material-icons">phone</i> +62 822 8303 8159 &nbsp; &nbsp;
+         
+        <h4>hellomuonn@gmail.com</h4>
+      </v-row>
     </div>
-      
+  </footer>
 </template>
 
 <script>
@@ -20,7 +18,6 @@
 
 <style scoped>
 .footer {
-  height: 10px;
 }
 
 </style>

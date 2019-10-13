@@ -1,20 +1,56 @@
 <template>
-	<div class="container">
-		<div class="title">
-			<h1>Our Team</h1>
-		</div>
-		<div class="columns" style="margin:0 10% 0 10%">
-			<div class="column" v-for="content in data" :key="content.id">
-				<div class="columns" style="margin: 0 40px 0 40px">
-					<div class="column">
-						<img :src="content.url" style="width:60%;height:80%; padding:0;" alt="Placeholder Image">
-					</div>
-					<div class="column" style="padding:5% 0 0 0">
-						{{content.description}}
-					</div>
-				</div>
-			</div>
-		</div>
+	<div >
+		<v-container>
+		<v-row justify="center" class="mt-12" style="font-size:40px;font-weight:bold">
+			<h1>MEET THE TEAM</h1>
+		</v-row>
+		<v-row no-gutters class="mt-12" justify="center">
+			<v-col sm="3" class="text-center">
+				<v-avatar width="250" height="250">
+		      <img
+		        src="../../assets/image/ikhsan.jpeg"
+		        alt="Tambun">
+		    </v-avatar>
+		    <h3 class="text-center mt-12">Ikhsan Rahman Husein</h3>
+		    <hr class="mx-12" style="background:black">
+		    <h2>Full Stack Developer and Machine Learning Practicioner</h2>
+	    </v-col>
+	    <v-col sm="3" class="text-center">
+		    <v-avatar width="250" height="250">
+		      <img
+		        src="../../assets/image/vicky.jpeg"
+		        alt="tallo">
+		    </v-avatar>
+		    <h3 class="text-center mt-12">Vicky Vernando Dasta</h3>
+		    <hr class="mx-12" style="background:black">
+		    <h2>Web Developer and Computer Vision Engineer</h2>
+	    </v-col>
+	    <!-- <v-col sm="3" class="text-center">
+		    <v-avatar width="250" height="250">
+		      <img
+		        src="../assets/tobing.jpg"
+		        alt="tobing">
+		    </v-avatar>
+		    <h3 class="text-center mt-12">Panuturi L Tobing</h3>
+		    <br>
+		    <hr class="mx-12">
+		    <br>
+		    <h2>Direktur Keuangan</h2>
+	    </v-col>
+	    <v-col sm="3" class="text-center">
+		    <v-avatar width="250" height="250">
+		      <img
+		        src="../assets/Robintang.jpg"
+		        alt="John">
+		    </v-avatar>
+		    <h3 class="text-center mt-12">Robintang Tua Simarmata</h3>
+		    <br>
+		    <hr class="mx-12">
+		    <br>
+		    <h2>Direktur Operasional</h2>
+	    </v-col> -->
+		</v-row>
+	</v-container>
 	</div>	
 	
 </template>
@@ -39,12 +75,5 @@
 </script>
 
 <style scoped>
-	.container {
-		padding: 40px 10px 10px 10px;
-		text-align: center;
-		border-bottom: 1px solid black;
-	}
-	.title h1 {
-		font-size: 50px;
-	}
+
 </style>

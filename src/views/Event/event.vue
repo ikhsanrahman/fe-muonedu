@@ -2,15 +2,26 @@
   <div>
     <navbar></navbar>
     <div class="event">
-      <div class="columns">
+      <div class="columns" style="margin-left:%">
         <div class="column">
-          <h1>Workshop Artificial Intelligence</h1>
+          <h1>Boost Your Research Using Python Stack Development</h1>
         </div>
       </div>
       <div class="columns description">
-        <div class="column">
-          <p>This Workshop is aimed to any people who having interesting in artificial Intelligence. This event will be held in main auditorium FMIPA unri</p>
-          <h1>Cooming Soon !!!!</h1>
+        <div class="column" style="line-height:2;font-size:20px;font-weight:600">
+          <p>This Workshop is aimed to any people who having interesting in Research and want to improve their research quality, in particularly the data gained already. This event will be held in Fotonic Laboratory FMIPA unri.</p>
+          <v-row justify="center" style="font-size:20px;color:white">
+            <i class="material-icons">
+            date_range
+            </i>
+            <h4> every Saturday</h4>
+          </v-row>
+          <v-row justify="center" style="font-size:20px;color:white">
+            <i class="material-icons">
+            access_time
+            </i>
+            <h4> 13.30 - 15.00 wib</h4>
+          </v-row>
         </div>
       </div>
     </div>
@@ -35,7 +46,12 @@
 <style scoped>
   .event {
     margin: 5% 0 0 0;
-    height:100%;
+    background: url('../../assets/image/event_python.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
   }
   .columns {
     text-align: center;
