@@ -24,6 +24,11 @@
           </v-row>
         </div>
       </div>
+      <br>
+      <br>
+      <v-row justify="center">
+        <v-btn><a href="https://forms.gle/GmaMxGgiAARKRrNq8" title="">Daftar</a></v-btn>
+      </v-row>
     </div>
     <hr>
     <foot/>

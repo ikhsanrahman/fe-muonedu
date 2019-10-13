@@ -53,7 +53,7 @@
 
   .content h1 {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
   }
   .content p {
     color: white;

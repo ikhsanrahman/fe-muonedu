@@ -9,7 +9,7 @@
 				<v-avatar width="250" height="250">
 		      <img
 		        src="../../assets/image/ikhsan.jpeg"
-		        alt="Tambun">
+		        alt="Ikhsan">
 		    </v-avatar>
 		    <h3 class="text-center mt-12">Ikhsan Rahman Husein</h3>
 		    <hr class="mx-12" style="background:black">
@@ -25,19 +25,17 @@
 		    <hr class="mx-12" style="background:black">
 		    <h2>Web Developer and Computer Vision Engineer</h2>
 	    </v-col>
-	    <!-- <v-col sm="3" class="text-center">
+	    <v-col sm="3" class="text-center">
 		    <v-avatar width="250" height="250">
 		      <img
-		        src="../assets/tobing.jpg"
+		        src="../../assets/image/Ira.jpg"
 		        alt="tobing">
 		    </v-avatar>
-		    <h3 class="text-center mt-12">Panuturi L Tobing</h3>
-		    <br>
-		    <hr class="mx-12">
-		    <br>
-		    <h2>Direktur Keuangan</h2>
+		    <h3 class="text-center mt-12">Humaira Shaufia S.Si</h3>
+		    <hr class="mx-12" style="background:black">
+		    <h2>Media Sosial Practicioner and Bussinesman</h2>
 	    </v-col>
-	    <v-col sm="3" class="text-center">
+	    <!-- <v-col sm="3" class="text-center">
 		    <v-avatar width="250" height="250">
 		      <img
 		        src="../assets/Robintang.jpg"

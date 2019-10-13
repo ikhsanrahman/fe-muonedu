@@ -18,23 +18,28 @@
         </div>
       </div>
       <hr style="background:black;" class="mx-12">
-       <v-timeline align-top :dense="$vuetify.breakpoint.smAndDown" class="mx-10">
-          <v-timeline-item
-            v-for="(item, i) in items"
-            :key="i"
+
+     <v-timeline align-top :dense="$vuetify.breakpoint.smAndDown">
+        <v-row justify="center">
+        
+        <v-timeline-item
+          v-for="(item, i) in items"
+          :key="i"
+          :color="item.color"
+          :icon="item.icon"
+          fill-dot>
+          <v-card
             :color="item.color"
-            :icon="item.icon"
-            fill-dot>
-            <v-card
-              :color="item.color"
-              dark>
-              <v-card-title class="title ml-6 pt-n6">{{item.date}}</v-card-title>
-              <v-card-text class="white text--primary">
-                <p>{{item.description}}</p>
-              </v-card-text>
-            </v-card>
-          </v-timeline-item>
-        </v-timeline>
+            dark>
+            <v-card-title class="title ml-6 pt-n6">{{item.date}}</v-card-title>
+            <v-card-text class="white text--primary">
+              <p>{{item.description}}</p>
+            </v-card-text>
+          </v-card>
+        </v-timeline-item>
+        <!-- <v-timeline></v-timeline> -->
+        </v-row>
+      </v-timeline>
     </div>
 </template>
 
