@@ -3,10 +3,10 @@
     <div class="header">      
       <div class="column">
         <div class="column is-three-fifths content">
-          <h1>Muon! Inspiring</h1> 
-          <h1 style="font-size:30px;">Train your own though by coding</h1>
-          <p>Muon adalah sebuah lembaga pelatihan di bidang teknologi dan informasi yang bertujuan untuk meningkatkan kreativitas dan mengembangkan ekosistem melalui Coding.</p>
-          <h2>Learn skills together.</h2> <p> Muoneka! mengajak siapapun untuk belajar bersama melalui akademi, training, dan study group (Python, Microservices, Flask, Django, VueJS,  Docker, dan lainnya) untuk para pelajar, developer, maupun instansi/perusahaan. </p>
+          <h1>Muon Edukasi !</h1> 
+          <h1 style="font-size:30px;">Train your Mind by Coding</h1>
+          <p>Muon adalah sebuah lembaga pelatihan di bidang teknologi dan informasi yang bertujuan untuk meningkatkan kreativitas di bidang Teknologi Informasi dan mengembangkan Ekosistem Teknologi.</p>
+          <h2>Industri Oriented.</h2> <p> Muonedu! mengajak siapapun untuk belajar bersama melalui training dan Event (Python, Microservices, Flask, Django, VueJS,  Docker, dan lainnya) untuk para pelajar, developer, maupun instansi/perusahaan. </p>
           <!-- <h2>Photon has been a high insight in implementation in the entire world.</h2> -->
           <b-button @click="student">I am Student</b-button> <b-button @click="corporate">I am a Company</b-button>
         </div>

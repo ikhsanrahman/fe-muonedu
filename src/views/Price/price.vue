@@ -9,7 +9,7 @@
 						<hr>
 						<h2 style="color:blue;" v-if="content.discount"> <strong>Rp </strong>{{content.discount}}</h2>
 						<h5 v-if="content.discount"> <b>Rp</b>{{content.price}}</h5>
-						<h1 else> {{content.soon}}</h1>
+						<h1 else style="color:blue;"> {{content.soon}}</h1>
 						<hr>
 						<div class="content">
 							<h4>{{content.desc_1}}</h4>
@@ -59,7 +59,7 @@
 						desc_2: 'Dilakukan secara full onsite',
 						desc_3: 'Dibimbing oleh praktisi Python, Machine Learning dan Computer Vision Expert',
 						desc_4: 'Mongodb, Complex Monolith and Microservices',
-						link: 'https://forms.gle/8AaNS2fkhtWLyxT66'
+						// link: 'https://forms.gle/8AaNS2fkhtWLyxT66'
 					},
 					{
 						title: 'Python Advanced',
@@ -70,7 +70,7 @@
 						desc_2: 'Dilakukan secara full onsite',
 						desc_3: 'Dibimbing oleh praktisi Python, Machine Learning dan Computer Vision Expert',
 						desc_4: 'Computer Vision and Machine Learning',
-						link: 'https://forms.gle/X3FCGnvjoWKjEbMaA'
+						// link: 'https://forms.gle/X3FCGnvjoWKjEbMaA'
 					}
 				]
 			}
