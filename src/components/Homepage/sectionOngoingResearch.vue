@@ -1,5 +1,4 @@
 <template>
-  <div>
     <div class="ongoing">
       <div class="title">
         <h1>Sedang dibuka!</h1>
@@ -18,16 +17,70 @@
           </div>
         </div>
       </div>
+      <hr style="background:black;" class="mx-12">
+       <v-timeline align-top :dense="$vuetify.breakpoint.smAndDown" class="mx-10">
+          <v-timeline-item
+            v-for="(item, i) in items"
+            :key="i"
+            :color="item.color"
+            :icon="item.icon"
+            fill-dot>
+            <v-card
+              :color="item.color"
+              dark>
+              <v-card-title class="title ml-6 pt-n6">{{item.date}}</v-card-title>
+              <v-card-text class="white text--primary">
+                <p>{{item.description}}</p>
+              </v-card-text>
+            </v-card>
+          </v-timeline-item>
+        </v-timeline>
     </div>
-
-  </div>
 </template>
 
 <script>
   export default {
     data () {
       return {
-        
+        items: [
+        {
+          color: 'red lighten-2',
+          icon: 'mdi-star',
+          date: '1 November 2019',
+          description: 'Akan Belajar tentang Python Basic dan Object Oriented Programming. Bagaimana membuat sebuah fungsi dan kelas serta dapat digunakann kembali (reusable) sehingga kodingan jadi lebih efektif dan produktif.'
+        },
+        {
+          color: 'purple darken-1',
+          icon: 'mdi-book-variant',
+          date: '8 November 2019',
+          description: 'Akan Belajar tentang Pengembangan dari Python Basic dan Object Oriented Programming. Bagaimana import Fungsi dan Kelas serta mempelajari Basic Flask untuk membuat web'
+        },
+        {
+          color: 'green lighten-1',
+          icon: 'mdi-airballoon',
+          date: '15 November 2019',
+          description: 'Akan Belajar tentang bagaimana membuat web menggunakan Flask, membuat route dan render template menggunakan Bootstap atau bulma.'
+        },
+        {
+          color: 'indigo',
+          icon: 'mdi-buffer',
+          date: '22 November 2019',
+          description: 'Akan Belajar tentang bagaimana membuat web menggunakan Flask, membuat route dan render template menggunakan Bootstap atau bulma.'
+        },
+        {
+          color: 'yellow lighten-1',
+          icon: 'mdi-language-python',
+          date: '29 November 2019',
+          description: 'Akan Belajar tentang bagaimana membuat web menggunakan Flask, membuat route dan render template menggunakan Bootstap atau bulma.'
+        },
+        {
+          color: 'indigo',
+          icon: 'mdi-docker',
+          date: '6 November 2019',
+          description: 'Akan Belajar tentang bagaimana membuat web menggunakan Flask, membuat route dan render template menggunakan Bootstap atau bulma.'
+        },
+
+      ],
       }
     },
     methods: {
@@ -68,11 +121,7 @@
   font-size: 20px;
 }
 .ongoing {
-  /* background: url('../../assets/image/blueBackground.jpg') no-repeat; */
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  height: 100%; 
+  
 }
 
 </style>
