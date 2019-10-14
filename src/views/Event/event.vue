@@ -27,8 +27,11 @@
       <br>
       <br>
       <v-row justify="center">
-        <v-btn><a href="https://forms.gle/GmaMxGgiAARKRrNq8" title="">Daftar</a></v-btn>
+        <v-btn class="mb-12"><a href="https://forms.gle/GmaMxGgiAARKRrNq8" title="">Daftar</a></v-btn>
       </v-row>
+      <br>
+      <br>
+      <br>
     </div>
     <hr>
     <foot/>
@@ -55,8 +58,6 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    width: 100%;
-    height: 600px;
   }
   .columns {
     text-align: center;

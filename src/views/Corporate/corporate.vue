@@ -10,8 +10,8 @@
           <br>
          <b-button style="font-weight:bold"> <a href="https://forms.gle/1FCDW6x84CEf91Zm7">Kontak Kami</a></b-button>
         </div>
-        <div class="column" style="margin: 0 0 20% 20%">
-          <img src="../../assets/image/python.png" width="70%" alt="">
+        <div class="column">
+          <img src="../../assets/image/python.png" width="50%" alt="">
         </div>
       </div>
     </div>
@@ -108,8 +108,7 @@
     background-position: center;
     background-attachment: fixed;
     width: 100%;
-    height: 500px;
-    margin: 0 0 0 0;
+
   }
   .columns {
     padding: 8% 0 0 0;
