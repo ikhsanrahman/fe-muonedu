@@ -5,49 +5,47 @@
 			<h1>MEET THE TEAM</h1>
 		</v-row>
 		<v-row no-gutters class="mt-12" justify="center">
+			<v-col sm="3" class="text-center">
+			    <v-avatar width="250" height="250">
+			      <img
+			        src="../../assets/image/un.jpeg"
+			        alt="John">
+			    </v-avatar>
+			    <h3 class="text-center mt-12">Ullya Mufihatin</h3>
+			    <hr class="mx-12" style="background:black">
+			    <h2>Social Media Manager & Graphic Design</h2>
+		    </v-col>
 			<v-col sm="3" class="text-center mb-12">
 				<v-avatar width="250" height="250">
-		      <img
-		        src="../../assets/image/ikhsan.jpeg"
-		        alt="Ikhsan">
-		    </v-avatar>
-		    <h3 class="text-center mt-12">Ikhsan Rahman Husein</h3>
-		    <hr class="mx-12" style="background:black">
-		    <h2>Full Stack Developer and Machine Learning Practicioner</h2>
-	    </v-col>
-	    <v-col sm="3" class="text-center mb-12">
-		    <v-avatar width="250" height="250">
-		      <img
-		        src="../../assets/image/vicky.jpeg"
-		        alt="tallo">
-		    </v-avatar>
-		    <h3 class="text-center mt-12">Vicky Vernando Dasta</h3>
-		    <hr class="mx-12" style="background:black">
-		    <h2>Web Developer and Computer Vision Engineer</h2>
-	    </v-col>
-	    <br>
-	    <v-col sm="3" class="text-center mb-12">
-		    <v-avatar width="250" height="250">
-		      <img
-		        src="../../assets/image/Ira.jpg"
-		        alt="tobing">
-		    </v-avatar>
-		    <h3 class="text-center mt-12">Humaira Shaufia S.Si</h3>
-		    <hr class="mx-12" style="background:black">
-		    <h2>Media Sosial Practicioner and Bussinesman</h2>
-	    </v-col>
-	    <!-- <v-col sm="3" class="text-center">
-		    <v-avatar width="250" height="250">
-		      <img
-		        src="../assets/Robintang.jpg"
-		        alt="John">
-		    </v-avatar>
-		    <h3 class="text-center mt-12">Robintang Tua Simarmata</h3>
+			      <img
+			        src="../../assets/image/ikhsan.jpeg"
+			        alt="Ikhsan">
+			    </v-avatar>
+			    <h3 class="text-center mt-12">Ikhsan Rahman Husein</h3>
+			    <hr class="mx-12" style="background:black">
+			    <h2>Full Stack Developer and Machine Learning Practicioner</h2>
+		    </v-col>
+		    <v-col sm="3" class="text-center mb-12">
+			    <v-avatar width="250" height="250">
+			      <img
+			        src="../../assets/image/vicky.jpeg"
+			        alt="tallo">
+			    </v-avatar>
+			    <h3 class="text-center mt-12">Vicky Vernando Dasta</h3>
+			    <hr class="mx-12" style="background:black">
+			    <h2>Web Developer and Computer Vision Engineer</h2>
+		    </v-col>
 		    <br>
-		    <hr class="mx-12">
-		    <br>
-		    <h2>Direktur Operasional</h2>
-	    </v-col> -->
+		    <v-col sm="3" class="text-center mb-12">
+			    <v-avatar width="250" height="250">
+			      <img
+			        src="../../assets/image/Ira.jpg"
+			        alt="tobing">
+			    </v-avatar>
+			    <h3 class="text-center mt-12">Humaira Shaufia S.Si</h3>
+			    <hr class="mx-12" style="background:black">
+			    <h2>Bussinesman</h2>
+		    </v-col>
 		</v-row>
 	</v-container>
 	</div>	

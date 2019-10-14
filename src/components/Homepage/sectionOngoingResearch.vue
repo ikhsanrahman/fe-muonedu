@@ -65,19 +65,19 @@
           color: 'indigo',
           icon: 'mdi-buffer',
           date: '22 November 2019',
-          description: 'Akan Belajar tentang bagaimana membuat web menggunakan Flask, membuat route dan render template menggunakan Bootstap atau bulma.'
+          description: 'Praktek menghubungkan Flask dengan Database (sqlite3). Menggunakan Object Relation Mapping (ORM) Flask SQLAlchemy.'
         },
         {
           color: 'yellow lighten-1',
           icon: 'mdi-language-python',
           date: '29 November 2019',
-          description: 'Akan Belajar tentang bagaimana membuat web menggunakan Flask, membuat route dan render template menggunakan Bootstap atau bulma.'
+          description: 'Akan Belajar tentang bagaimana menghubungkan template dengan framework Bootstap dan Bulma.'
         },
         {
           color: 'indigo',
           icon: 'mdi-docker',
           date: '6 November 2019',
-          description: 'Akan Belajar tentang bagaimana membuat web menggunakan Flask, membuat route dan render template menggunakan Bootstap atau bulma.'
+          description: 'Membuat Project Chat Application dengan mengimplementasikan framework yang di pelajari sebelumnya.'
         },
 
       ],
