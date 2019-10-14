@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>Harga</h1>
+		<h1>Available Class</h1>
 		<div class="columns">
 			<div class="column" style="text-align: center" v-for='content in data' :key="content.id">
 				<div class="card">
@@ -21,7 +21,7 @@
 							<h4>{{content.desc_4}}</h4>
 						</div>
 					</div>
-					<b-button type="info" style='margin:0 0 20px 0;'> <a :href="content.link" title="">Daftar Sekarang</a></b-button>
+					<v-btn style='margin:0 0 20px 0;'> <a style="font-weight:500;color:blue" :href="content.link" title="">Daftar Sekarang</a></v-btn>
 				</div>   
 			</div>
 		</div>

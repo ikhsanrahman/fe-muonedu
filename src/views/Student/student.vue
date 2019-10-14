@@ -14,10 +14,12 @@
           <br>
           <br>
           <br>
-          <b-button style='margin:0 0 20px 30%;'><a href="https://forms.gle/nRWpEdXzu9MdH8f69" title="">Daftar Sekarang</a></b-button>
+          <v-row justify="center">
+            <v-btn class=" mb-12" justify="center"><a href="https://forms.gle/nRWpEdXzu9MdH8f69" title="">Daftar Sekarang</a></v-btn>
+          </v-row>
         </div>
         <div class="column">
-          <img src="@/assets/image/python.png" style="padding: 10% 0 5% 10%" alt="">
+          <img src="@/assets/image/python.png" style="padding: 10% 0 5% 0" alt="">
         </div>
 
       </div>
