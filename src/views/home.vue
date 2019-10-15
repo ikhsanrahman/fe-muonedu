@@ -1,11 +1,18 @@
 <template>
   <div>
     <navbar/>
-    <background/>
-    <ongoing/>
-    <category/>
-    <meet/>
-    <foot/>
+    <v-progress-linear
+      :active="loading"
+      :indeterminate="loading"
+      color="deep-purple accent-4"
+    ></v-progress-linear>
+    <div v-show="content">
+      <background></background>
+      <ongoing></ongoing>
+      <category></category>
+      <meet></meet>
+      <foot/>
+    </div>
   </div>
 </template>
 
@@ -31,11 +38,22 @@ export default {
   },
   data () {
     return {
-      
+      loading: true,
+      content: false
     }
   },
+  created () {
+    this.loader ()
+  },
   methods: {
+    loader () {
 
+      setTimeout(() => (
+        this.loading = false,
+        this.content = true
+        ),
+      2000)
+    }
   }
 }
 </script>

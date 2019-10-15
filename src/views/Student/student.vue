@@ -1,7 +1,12 @@
 <template>
   <div>
     <navbar/>
-    <div class="student">
+     <v-progress-linear
+        :active="loading"
+        :indeterminate="loading"
+        color="deep-purple accent-4"
+      ></v-progress-linear>
+    <div class="student" v-show="content">
       <div class="columns" style="margin: 0 20% 15px 20%">
         <div class="column" style="padding:5% 0 0 0;">
           November bulannya belajar !!
@@ -24,7 +29,7 @@
 
       </div>
     </div>
-    <price/>
+    <price v-show="content"></price>
   </div>
 </template>
 
@@ -40,7 +45,21 @@
     },
     data () {
       return {
+        loading: true,
+        content: false
+      }
+    },
+    created () {
+      this.loader ()
+    },
+    methods: {
+      loader () {
 
+        setTimeout(() => (
+          this.loading = false,
+          this.content = true
+          ),
+        2000)
       }
     }
     

@@ -27,7 +27,9 @@
                 </div>
               </div>
               <!-- {{content.button}} -->
-              <b-button type="info" style='margin:0 0 20px 35%;' @click="content.method">Lebih Lanjut</b-button>
+              <v-row justify="center" class="pb-6">
+                <v-btn class="d-flex justify-center" @click="content.method">Lebih Lanjut</v-btn>
+              </v-row>
             </div>            
           </div>
         </div>

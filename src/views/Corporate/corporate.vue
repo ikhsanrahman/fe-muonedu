@@ -1,7 +1,12 @@
 <template>
   <div>
     <navbar/>
-    <div class="corporate">
+    <v-progress-linear
+        :active="loading"
+        :indeterminate="loading"
+        color="deep-purple accent-4"
+      ></v-progress-linear>
+    <div class="corporate" v-show="content">
       <div class="columns">
         <div class="column is-two-fifths">
           <h1>Muon Corporate</h1>
@@ -16,7 +21,7 @@
       </div>
     </div>
 
-    <div class="content-section">
+    <div class="content-section" v-show="content">
       <div class="columns">
         <div class="column is-half">
           <img src="@/assets/image/corporate1.jpg" alt="">
@@ -74,8 +79,6 @@
     </div>
     <hr>
     <foot/>
-
-
   </div>
 </template>
 
@@ -87,6 +90,25 @@
     components: {
       Navbar,
       Foot
+    },
+    data () {
+      return {
+        loading: true,
+        content: false
+      }
+    },
+    created () {
+      this.loader ()
+    },
+    methods: {
+      loader () {
+
+        setTimeout(() => (
+          this.loading = false,
+          this.content = true
+          ),
+        2000)
+      }
     }
     
   }

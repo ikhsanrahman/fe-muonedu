@@ -18,7 +18,8 @@
         </div>
       </div>
       <hr style="background:black;" class="mx-12">
-     <v-timeline align-top :dense="$vuetify.breakpoint.smAndDown" class="mx-12">
+      <v-row justify="center">
+     <v-timeline :dense="$vuetify.breakpoint.smAndDown" class="mx-12">
         <v-timeline-item
           v-for="(item, i) in items"
           :key="i"
@@ -35,6 +36,7 @@
           </v-card>
         </v-timeline-item>
       </v-timeline>
+      </v-row>
     </div>
 </template>
 
@@ -76,7 +78,7 @@
         {
           color: 'indigo',
           icon: 'mdi-docker',
-          date: '6 November 2019',
+          date: '6 Desember 2019',
           description: 'Membuat Project Chat Application dengan mengimplementasikan framework yang di pelajari sebelumnya.'
         },
 
