@@ -48,37 +48,37 @@
         {
           color: 'red lighten-2',
           icon: 'mdi-star',
-          date: '1 November 2019',
+          date: '2 November 2019',
           description: 'Akan Belajar tentang Python Basic dan Object Oriented Programming. Bagaimana membuat sebuah fungsi dan kelas serta dapat digunakann kembali (reusable) sehingga kodingan jadi lebih efektif dan produktif.'
         },
         {
           color: 'purple darken-1',
           icon: 'mdi-book-variant',
-          date: '8 November 2019',
+          date: '9 November 2019',
           description: 'Akan Belajar tentang Pengembangan dari Python Basic dan Object Oriented Programming. Bagaimana import Fungsi dan Kelas serta mempelajari Basic Flask untuk membuat web'
         },
         {
           color: 'green lighten-1',
           icon: 'mdi-airballoon',
-          date: '15 November 2019',
+          date: '16 November 2019',
           description: 'Akan Belajar tentang bagaimana membuat web menggunakan Flask, membuat route dan render template menggunakan Bootstap atau bulma.'
         },
         {
           color: 'indigo',
           icon: 'mdi-buffer',
-          date: '22 November 2019',
+          date: '23 November 2019',
           description: 'Praktek menghubungkan Flask dengan Database (sqlite3). Menggunakan Object Relation Mapping (ORM) Flask SQLAlchemy.'
         },
         {
           color: 'yellow lighten-1',
           icon: 'mdi-language-python',
-          date: '29 November 2019',
+          date: '30 November 2019',
           description: 'Akan Belajar tentang bagaimana menghubungkan template dengan framework Bootstap dan Bulma.'
         },
         {
           color: 'indigo',
           icon: 'mdi-docker',
-          date: '6 Desember 2019',
+          date: '7 Desember 2019',
           description: 'Membuat Project Chat Application dengan mengimplementasikan framework yang di pelajari sebelumnya.'
         },
 
