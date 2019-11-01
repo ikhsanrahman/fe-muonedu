@@ -61,7 +61,7 @@
           color: 'green lighten-1',
           icon: 'mdi-airballoon',
           date: '16 November 2019',
-          description: 'Akan Belajar tentang bagaimana membuat web menggunakan Flask, membuat route dan render template menggunakan Bootstap atau bulma.'
+          description: 'Akan Belajar tentang bagaimana membuat web menggunakan Flask, membuat route dan render template berbasis Bootstap atau bulma.'
         },
         {
           color: 'indigo',
